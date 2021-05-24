@@ -1,0 +1,232 @@
+body, html()
+{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #2828E5;
+}
+
+
+.pimg1
+
+{
+    position: relative;
+    opacity: 0.95;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+    background-attachment: fixed;
+}
+
+.pimg1
+{
+    background-image: url('../images/vintage%201.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.map
+{
+    float: right;
+    margin-top: 250px;
+    margin-right: 150px;
+    padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 150px;
+  height: 150px;
+  
+}
+
+.map:hover {
+    
+  transform: scale(1.2);
+    
+}
+
+.description
+{
+  float: left;
+    margin-top: 300px;
+    margin-left: 20px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: white;
+    
+  transition: transform .2s; /* Animation */
+ 
+}
+
+.description:hover {
+     background: white;
+    opacity: 0.6;
+    transition: .7s;
+    color: saddlebrown; 
+    filter: blur(50%);
+    box-shadow: grey;
+    text-shadow: grey;
+     transform: scale(1.2);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+    transition: transform .2s; /* Animation */
+}
+
+.fa-facebook {
+    width: 25px;
+    height: 25px;
+  color: black;
+}
+
+.fa-facebook:hover {
+    background: white;
+    opacity: 0.6;
+    transition: .7s;
+    color: saddlebrown; 
+    filter: blur(50%);
+    box-shadow: grey;
+    text-shadow: grey;
+    transform: scale(1.2);
+}
+
+.fa-instagram {
+     
+  color: black;
+    
+}
+
+.fa-instagram:hover {
+    background: white;
+    opacity: 0.6;
+    transition: .7s;
+    color: saddlebrown; 
+    filter: blur(50%);
+    box-shadow: grey;
+    text-shadow: grey;
+    transform: scale(1.2);
+}
+
+
+
+.logo{
+    
+    float: left;
+    margin-left: 5px;
+    
+}
+
+
+nav{
+    float: right;
+    margin-top: 50px;
+    margin-right: 90px;
+}
+
+.dropdown{
+    
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    list-style-type: none;
+    text-align: center;
+    
+    
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    background: transparent;
+     color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    
+}
+
+ul: :after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+nav>ul>li {
+    float: right;
+    position: relative;
+    
+}
+
+a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    background: white;
+    opacity: 0.6;
+    transition: .7s;
+    color: saddlebrown; 
+    filter: blur(50%);
+    box-shadow: grey;
+    text-shadow: grey;
+    cursor: pointer;
+    
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    
+}
+
+    float: right;
+    position: absolute;
+    width: 105px;
+    height: 40px;
+    background: black;
+    opacity: 0.5;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    width: 105px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    list-style: none;

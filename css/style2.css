@@ -1,0 +1,248 @@
+body, html()
+{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #2828E5;
+}
+
+
+.pimg1, .pimg2, .pimg3, 
+
+{
+    position: relative;
+    opacity: 0.95;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+    background-attachment: fixed;
+}
+
+.pimg1
+{
+    background-image: url('../images/banner%20main.jpg');
+    min-height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      background-attachment: fixed;
+    
+}
+
+.pimg2
+
+{
+    background-image: url('../images/Azur.jpg');
+    min-height: 660px;
+    background-repeat: no-repeat;
+    background-size: cover;
+      background-attachment: fixed;
+}
+
+.pimg3
+
+{
+    background-image: url('../images/Adi%201.jpg');
+    min-height: 560px;background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      background-attachment: fixed;
+}
+
+.pimg8
+
+{
+    background-image: url('../images/22222.jpg');
+    min-height: 745px;
+     background-repeat: no-repeat;
+    background-size: cover;
+      background-attachment: fixed;
+}
+
+.section
+{
+    text-align: center;
+    padding: 40px;
+
+}
+
+.section-light
+{
+    background-color:lightgoldenrodyellow;
+    color: black;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+
+}
+
+.section-dark
+{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+.ptext{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+.ptext1, .ptext2, .ptext3, .ptext8
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+.logo{
+    
+    float: left;
+    margin-left: 5px;
+    
+}
+
+
+nav{
+    float: right;
+    margin-top: 50px;
+    margin-right: 90px;
+}
+
+.dropdown{
+    
+    color: white;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    list-style-type: none;
+    text-align: center;
+    
+    
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    background: transparent;
+     color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    
+}
+
+ul: :after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+nav>ul>li {
+    float: right;
+    position: relative;
+    
+}
+
+a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    background: white;
+    opacity: 0.6;
+    transition: .7s;
+    color: saddlebrown; 
+    filter: blur(50%);
+    box-shadow: grey;
+    text-shadow: grey;
+    cursor: pointer;
+    
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-content{
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    
+}
+
+    float: right;
+    position: absolute;
+    width: 105px;
+    height: 40px;
+    background: black;
+    opacity: 0.5;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    width: 105px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    list-style: none;
+
+.border final 
+
+    
+
+
+
+.welcome{
+     position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    
+
+@media (max-width:568px;)
+{
+    .pimg1, .pimg2, .pimg3{
+        background-attachment: scroll;
+    }
+}
